@@ -147,7 +147,7 @@ Jumper.Play.prototype = {
 
         // handle hero jumping
         if (this.cursor.up.isDown && this.hero.body.touching.down) {
-            this.hero.body.velocity.y = -350;
+            this.hero.body.velocity.y = -320;
         }
 
 
